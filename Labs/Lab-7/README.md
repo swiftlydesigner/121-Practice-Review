@@ -1,4 +1,4 @@
-# Lab 7 Iterative Statements
+# Lab 7 Returning via Parameters
 ## In-Lab
 - Directory containing files for in-lab debugging demo
 
