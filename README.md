@@ -6,3 +6,9 @@
 ## Review
 - Review materials such as exam review
 - Concepts covered in lab (presentations)
+
+## Content
+- Files that will help with learning content.
+
+## Labs
+- Content from labs.
