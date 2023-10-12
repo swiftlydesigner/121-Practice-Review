@@ -12,3 +12,6 @@
 
 ## Labs
 - Content from labs.
+
+## Final-Grade-Calculator
+- A C-based final grade calculator.
