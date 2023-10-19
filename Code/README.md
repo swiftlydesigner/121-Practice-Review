@@ -6,6 +6,3 @@ Note: You will be working with .h files instead of .c to save time on my end. Al
 
 ## headers
 - Directory containing all functions you should finish. Do not modify .hpp files.
-
-## source
-- Directory containing C++ for my functions. Do not modify these.
