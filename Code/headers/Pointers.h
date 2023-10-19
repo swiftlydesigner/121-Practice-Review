@@ -8,6 +8,12 @@
 #ifndef Pointers_h
 #define Pointers_h
 
+struct list {
+	int value;
+	int index;
+	struct list * next;
+};
+
 void simplePointer(int input, int * output) {
 	/// Simply set the ouput to the input.
 }
@@ -23,7 +29,11 @@ void moderatePointer(int input, double * output) {
 	/// Add the input to the ouput.
 }
 
-void difficultPointer() {
+void difficultPointer(struct list ** pHead) {
+	/// Search for the LAST occurence of List.value = 43.
+	/// Set pHead to that object. Ignore index field.
+	/// Create helper functions as needed.
+	///
 	
 }
 
