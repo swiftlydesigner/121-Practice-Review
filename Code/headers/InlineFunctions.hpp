@@ -49,3 +49,14 @@ inline void printPassFail(TYPE ex, TYPE ac) {
 		cout << "FAIL! EXPECTED " << ex << " BUT GOT " << ac << "." << endl;
 	}
 }
+
+/// Internal Failure
+///
+/// - Parameter ex: Expected Value
+/// - Parameter ac: Actual Value
+/// - Date: October 19, 2023
+///
+/// - Version: 1.0
+inline void printInternalFailure(string input) {
+	cout << "INTERNAL FAILURE! TRY RUNNING IT AGAIN. CONTACT REPO HOST IF THIS PROBLEM CONSISTS. Error: " << input;
+}
