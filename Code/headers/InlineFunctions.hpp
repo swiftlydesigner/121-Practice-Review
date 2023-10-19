@@ -42,11 +42,11 @@ inline void printBreak(short mode = 0) {
 ///
 /// - Version: 1.0
 template <class TYPE>
-inline void printPassFail(TYPE ex, TYPE ac) {
+inline void printPassFail(TYPE ex, TYPE ac, string prefix = "") {
 	if (ex == ac) {
-		cout << "PASS!" << endl;
+		cout << prefix << "PASS!" << endl;
 	} else {
-		cout << "FAIL! EXPECTED " << ex << " BUT GOT " << ac << "." << endl;
+		cout << prefix << "FAIL! EXPECTED " << ex << " BUT GOT " << ac << "." << endl;
 	}
 }
 
