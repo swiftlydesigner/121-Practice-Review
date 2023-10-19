@@ -33,7 +33,6 @@ void difficultPointer(struct list ** pHead) {
 	/// Search for the LAST occurence of List.value = 43.
 	/// Set pHead to that object. Ignore index field.
 	/// Create helper functions as needed.
-	///
 	
 }
 
