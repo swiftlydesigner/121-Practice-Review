@@ -11,5 +11,6 @@
 #include "Loops.h"
 #include "IfSwitchStatements.h"
 #include "Pointers.h"
+#include "Arrays.h"
 
 #endif /* Headers_h */

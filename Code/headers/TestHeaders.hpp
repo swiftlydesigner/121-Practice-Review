@@ -70,6 +70,8 @@ typedef map<string, OptionFuncPair* > ObjectPair;
 
 #include "TestLoops.hpp"
 #include "TestIfSwitch.hpp"
+#include "TestPointers.hpp"
+#include "TestArrays.hpp"
 
 #include "Tests.hpp" /* Included last so it can see all test functions. */
 
