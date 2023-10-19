@@ -68,8 +68,12 @@ private:
 		objects = new ObjectPair();
 		
 		OptionFuncPair* loops = getTestLoopsPairs();
+		OptionFuncPair* ifSwitch = getTestIfSwitchPairs();
+		OptionFuncPair* pointers = getTestPointersPairs();
 		if (loops) {
 			this->objects->insert(ObjectPair::value_type("Loops", loops));
+			this->objects->insert(ObjectPair::value_type("If/Switch", ifSwitch));
+			this->objects->insert(ObjectPair::value_type("Pointers", pointers));
 		}
 		
 		
