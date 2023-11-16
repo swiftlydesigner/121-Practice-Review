@@ -20,20 +20,18 @@ typedef struct _coord {
 
 Coord ** solveMaze(char maze[8][8]);
 
-void solveMazeHelper(char maze[8][8], int x, int y, Coord ** result);
+void solveMazeHelper(char maze[8][8], int x, int y, Coord * result);
 
-static void setCoord(int x, int y, Coord ** postion) {
-    if (*postion != NULL) {
-        free(*postion);
+// set x and y val to required fields in the argued coord obj.
+static void setCoord(int x, int y, Coord * coordEle) {
+    // Ensure coordEle exists.
+    if (coordEle == NULL) {
+        return;
     }
     
-    Coord * newPos = (Coord*)malloc(sizeof(Coord));
-    
-    *postion = newPos;
-}
-
-static bool compareCoords(Coord * a, Coord * b) {
-    return a->x == b->x && a->y == b->y;
+    // Set x any y coords.
+    coordEle->x = x;
+    coordEle->y = y;
 }
 
 #endif /* SolveMaze_h */
